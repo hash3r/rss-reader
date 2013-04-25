@@ -12,8 +12,6 @@ CVS
 *.xcbkptlist
  
 .DS_Store
-*~.nib
 *.swp
 DerivedData
 .history
-org.eclipse.jdt.core
