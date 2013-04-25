@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04D2C3DC162CECEE00AE6BAC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D2C3DB162CECEE00AE6BAC /* CoreData.framework */; };
+		04D2C3E0162CED2800AE6BAC /* LostFilmModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04D2C3DE162CED2700AE6BAC /* LostFilmModel.xcdatamodeld */; };
+		04D2C3E5162CF1FD00AE6BAC /* Film.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2C3E4162CF1FD00AE6BAC /* Film.m */; };
+		04D2C3E9162D019900AE6BAC /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D2C3E8162D019900AE6BAC /* Storyboard.storyboard */; };
+		04D2C3EC162D034D00AE6BAC /* FilmTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2C3EB162D034D00AE6BAC /* FilmTableViewCell.m */; };
+		8933372E154636B9006E9BF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8933372D154636B9006E9BF4 /* UIKit.framework */; };
+		89333730154636B9006E9BF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8933372F154636B9006E9BF4 /* Foundation.framework */; };
+		89333732154636B9006E9BF4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89333731154636B9006E9BF4 /* CoreGraphics.framework */; };
+		89333738154636BA006E9BF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89333736154636BA006E9BF4 /* InfoPlist.strings */; };
+		8933373A154636BA006E9BF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89333739154636BA006E9BF4 /* main.m */; };
+		8933373E154636BA006E9BF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8933373D154636BA006E9BF4 /* AppDelegate.m */; };
+		89333748154638E8006E9BF4 /* FilmTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89333747154638E8006E9BF4 /* FilmTableViewController.m */; };
+		8933374915463E76006E9BF4 /* KMXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8933374515463787006E9BF4 /* KMXMLParser.m */; };
+		89D7DA6E15464F50003D5B07 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D7DA6D15464F50003D5B07 /* WebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04D2C3DB162CECEE00AE6BAC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		04D2C3DF162CED2800AE6BAC /* LostFilmModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LostFilmModel.xcdatamodel; sourceTree = "<group>"; };
+		04D2C3E3162CF1FD00AE6BAC /* Film.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Film.h; sourceTree = "<group>"; };
+		04D2C3E4162CF1FD00AE6BAC /* Film.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Film.m; sourceTree = "<group>"; };
+		04D2C3E8162D019900AE6BAC /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
+		04D2C3EA162D034C00AE6BAC /* FilmTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmTableViewCell.h; sourceTree = "<group>"; };
+		04D2C3EB162D034D00AE6BAC /* FilmTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmTableViewCell.m; sourceTree = "<group>"; };
+		89333729154636B9006E9BF4 /* Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8933372D154636B9006E9BF4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8933372F154636B9006E9BF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		89333731154636B9006E9BF4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		89333735154636BA006E9BF4 /* Reader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Reader-Info.plist"; sourceTree = "<group>"; };
+		89333737154636BA006E9BF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		89333739154636BA006E9BF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8933373B154636BA006E9BF4 /* Reader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Reader-Prefix.pch"; sourceTree = "<group>"; };
+		8933373C154636BA006E9BF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8933373D154636BA006E9BF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8933374415463787006E9BF4 /* KMXMLParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMXMLParser.h; sourceTree = "<group>"; };
+		8933374515463787006E9BF4 /* KMXMLParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMXMLParser.m; sourceTree = "<group>"; };
+		89333746154638E8006E9BF4 /* FilmTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmTableViewController.h; sourceTree = "<group>"; };
+		89333747154638E8006E9BF4 /* FilmTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmTableViewController.m; sourceTree = "<group>"; };
+		89D7DA6C15464F50003D5B07 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		89D7DA6D15464F50003D5B07 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89333726154636B9006E9BF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D2C3DC162CECEE00AE6BAC /* CoreData.framework in Frameworks */,
+				8933372E154636B9006E9BF4 /* UIKit.framework in Frameworks */,
+				89333730154636B9006E9BF4 /* Foundation.framework in Frameworks */,
+				89333732154636B9006E9BF4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04D2C3E2162CF1C400AE6BAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04D2C3DE162CED2700AE6BAC /* LostFilmModel.xcdatamodeld */,
+				04D2C3E3162CF1FD00AE6BAC /* Film.h */,
+				04D2C3E4162CF1FD00AE6BAC /* Film.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8933371E154636B6006E9BF4 = {
+			isa = PBXGroup;
+			children = (
+				89333733154636B9006E9BF4 /* RssReader */,
+				8933372C154636B9006E9BF4 /* Frameworks */,
+				8933372A154636B9006E9BF4 /* Products */,
+				89333734154636B9006E9BF4 /* Supporting Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8933372A154636B9006E9BF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89333729154636B9006E9BF4 /* Reader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8933372C154636B9006E9BF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04D2C3DB162CECEE00AE6BAC /* CoreData.framework */,
+				8933372D154636B9006E9BF4 /* UIKit.framework */,
+				8933372F154636B9006E9BF4 /* Foundation.framework */,
+				89333731154636B9006E9BF4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89333733154636B9006E9BF4 /* RssReader */ = {
+			isa = PBXGroup;
+			children = (
+				04D2C3E8162D019900AE6BAC /* Storyboard.storyboard */,
+				04D2C3E2162CF1C400AE6BAC /* Model */,
+				8933373C154636BA006E9BF4 /* AppDelegate.h */,
+				8933373D154636BA006E9BF4 /* AppDelegate.m */,
+				04D2C3EA162D034C00AE6BAC /* FilmTableViewCell.h */,
+				04D2C3EB162D034D00AE6BAC /* FilmTableViewCell.m */,
+				8933374415463787006E9BF4 /* KMXMLParser.h */,
+				8933374515463787006E9BF4 /* KMXMLParser.m */,
+				89333746154638E8006E9BF4 /* FilmTableViewController.h */,
+				89333747154638E8006E9BF4 /* FilmTableViewController.m */,
+				89D7DA6C15464F50003D5B07 /* WebViewController.h */,
+				89D7DA6D15464F50003D5B07 /* WebViewController.m */,
+			);
+			name = RssReader;
+			path = Reader;
+			sourceTree = "<group>";
+		};
+		89333734154636B9006E9BF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89333735154636BA006E9BF4 /* Reader-Info.plist */,
+				89333736154636BA006E9BF4 /* InfoPlist.strings */,
+				89333739154636BA006E9BF4 /* main.m */,
+				8933373B154636BA006E9BF4 /* Reader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = Reader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89333728154636B9006E9BF4 /* Reader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89333741154636BA006E9BF4 /* Build configuration list for PBXNativeTarget "Reader" */;
+			buildPhases = (
+				89333725154636B9006E9BF4 /* Sources */,
+				89333726154636B9006E9BF4 /* Frameworks */,
+				89333727154636B9006E9BF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reader;
+			productName = Reader;
+			productReference = 89333729154636B9006E9BF4 /* Reader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89333720154636B7006E9BF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "HotRod software";
+			};
+			buildConfigurationList = 89333723154636B7006E9BF4 /* Build configuration list for PBXProject "Reader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8933371E154636B6006E9BF4;
+			productRefGroup = 8933372A154636B9006E9BF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89333728154636B9006E9BF4 /* Reader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89333727154636B9006E9BF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89333738154636BA006E9BF4 /* InfoPlist.strings in Resources */,
+				04D2C3E9162D019900AE6BAC /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89333725154636B9006E9BF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8933373A154636BA006E9BF4 /* main.m in Sources */,
+				8933373E154636BA006E9BF4 /* AppDelegate.m in Sources */,
+				89333748154638E8006E9BF4 /* FilmTableViewController.m in Sources */,
+				8933374915463E76006E9BF4 /* KMXMLParser.m in Sources */,
+				89D7DA6E15464F50003D5B07 /* WebViewController.m in Sources */,
+				04D2C3E0162CED2800AE6BAC /* LostFilmModel.xcdatamodeld in Sources */,
+				04D2C3E5162CF1FD00AE6BAC /* Film.m in Sources */,
+				04D2C3EC162D034D00AE6BAC /* FilmTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89333736154636BA006E9BF4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89333737154636BA006E9BF4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8933373F154636BA006E9BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89333740154636BA006E9BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89333742154636BA006E9BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reader/Reader-Prefix.pch";
+				INFOPLIST_FILE = "Reader/Reader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		89333743154636BA006E9BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reader/Reader-Prefix.pch";
+				INFOPLIST_FILE = "Reader/Reader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89333723154636B7006E9BF4 /* Build configuration list for PBXProject "Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8933373F154636BA006E9BF4 /* Debug */,
+				89333740154636BA006E9BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89333741154636BA006E9BF4 /* Build configuration list for PBXNativeTarget "Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89333742154636BA006E9BF4 /* Debug */,
+				89333743154636BA006E9BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04D2C3DE162CED2700AE6BAC /* LostFilmModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04D2C3DF162CED2800AE6BAC /* LostFilmModel.xcdatamodel */,
+			);
+			currentVersion = 04D2C3DF162CED2800AE6BAC /* LostFilmModel.xcdatamodel */;
+			path = LostFilmModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 89333720154636B7006E9BF4 /* Project object */;
+}
